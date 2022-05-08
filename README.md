@@ -5,7 +5,7 @@ The below results are from secondary runs after one initial run to generate the 
 
 The interesting part is the compilation of crate a, which has a dependency on the tokio crate.
 
-You can see that the two first reports `finished in 0.00s`
+You can see that the two first runs reports `finished in 0.00s`
 
 And the third one reports `finished in 0.48s`, with two re-compilations.
 
