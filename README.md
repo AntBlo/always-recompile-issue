@@ -7,7 +7,7 @@ The interesting part is the compilation of crate a, which has a dependency on th
 
 You can see that the two first reports `finished in 0.00s`
 
-And the third one reports `finished in 0.48s`
+And the third one reports `finished in 0.48s`, with two re-compilations.
 
 Is this expected behaviour?
 
